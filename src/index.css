@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-blackoverlay{
+    background-color: rgba(0,0,0,0.7);
+
+    
+}
