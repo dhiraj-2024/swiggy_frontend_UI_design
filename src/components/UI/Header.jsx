@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { LuSearch } from "react-icons/lu";
-import { BiSolidOffer } from "react-icons/bi";
+import { PiSealPercent } from "react-icons/pi";
 import { IoHelpBuoySharp } from "react-icons/io5";
 import { CiUser } from "react-icons/ci";
 import { PiShoppingCartSimpleLight } from "react-icons/pi";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const [toggel, setatoggel] = useState(false);
@@ -12,23 +13,28 @@ const Header = () => {
     {
       icon: <LuSearch />,
       name: "Search",
+    
     },
     {
-      icon: <BiSolidOffer />,
+      icon: <PiSealPercent />,
       name: "Offer",
-      sup: "New"
+      sup: "New",
+      path:"offer"
     },
     {
       icon: <IoHelpBuoySharp />,
       name: "Help",
+      path:"help"
     },
     {
       icon: <CiUser />,
       name: "Sign In",
+      path:"signin"
     },
     {
       icon: <PiShoppingCartSimpleLight />,
       name: "Cart",
+      path:"cart",
       sup:"0"
     },
   ];
@@ -54,10 +60,12 @@ const Header = () => {
           }}
         ></div>
       </div>
-      <header className="w-full p-10 shadow-md">
-        <div className="max-w-[100%]  flex items-center  ">
+      <header className="w-full p-10 mt-[-15px] shadow-md">
+        <div className="max-w-[90%]  flex items-center m-auto ">
           <div className="w-[80px]">
+            <NavLink to="/">
             <img src="images/logo.png" alt="" className="w-full" />
+             </NavLink>
           </div>
           <div
             className="ml-2 cursor-pointer"
@@ -77,10 +85,12 @@ const Header = () => {
           <nav className="flex  gap-10 ml-auto font-semibold list-none text-[17px]">
             {links.map((links, index) => {
               return (
-                <li key={index} className="flex items-center gap-2 hover:text-[#fc8019] cursor-pointer">
-                  {links.icon}
-                  {links.name}
+                <li key={index} className=" hover:text-[#fc8019] cursor-pointer">
+                 <NavLink to={links.path} className="flex items-center gap-2">
+                 {links.icon}
+                 {links.name}
                   <sup className="text-[#fc8019]">{links.sup}</sup>
+                 </NavLink>
                 </li>
               );
             })}

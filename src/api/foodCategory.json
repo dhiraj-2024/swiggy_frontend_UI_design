@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "image": "/images/North_Indian_4.jpeg",
+        "path": "north-indian"
+    },
+    {
+        "id": 2,
+        "image": "/images/Pizza.jpeg",
+        "path": "pizza"
+    },
+    {
+        "id": 3,
+        "image": "/images/Noodles.jpeg",
+        "path": "noodles"
+    },
+    {
+        "id": 4,
+        "image": "/images/Pasta.jpeg",
+        "path": "pasta"
+    },
+    {
+        "id": 5,
+        "image": "/images/Paratha.jpeg",
+        "path": "paratha"
+    },
+    {
+        "id": 6,
+        "image": "/images/Biryani_2.jpeg",
+        "path": "biryani"
+    },
+    {
+        "id": 7,
+        "image": "/images/Burger.jpeg",
+        "path": "burger"
+    },
+    {
+        "id": 8,
+        "image": "/images/Cakes.jpeg",
+        "path": "cakes"
+    },
+    {
+        "id": 9,
+        "image": "/images/Chinese.jpeg",
+        "path": "chinese"
+    },
+    {
+        "id": 10,
+        "image": "/images/Chole_Bature.jpeg",
+        "path": "chole-bature"
+    },
+    {
+        "id": 11,
+        "image": "/images/Dosa.jpeg",
+        "path": "dosa"
+    },
+    {
+        "id": 12,
+        "image": "/images/Gulab_Jamun.jpeg",
+        "path": "gulab-jamun"
+    },
+    {
+        "id": 13,
+        "image": "/images/Ice_Creams.jpeg",
+        "path": "ice-creams"
+    },
+    {
+        "id": 14,
+        "image": "/images/Idli.jpeg",
+        "path": "idli"
+    },
+    {
+        "id": 15,
+        "image": "/images/Khichdi.jpeg",
+        "path": "khichdi"
+    },
+    {
+        "id": 16,
+        "image": "/images/Poori.jpeg",
+        "path": "poori"
+    },
+    {
+        "id": 17,
+        "image": "/images/Pure_Veg.jpeg",
+        "path": "pure-veg"
+    },
+    {
+        "id": 18,
+        "image": "/images/Rolls.jpeg",
+        "path": "rolls"
+    },
+    {
+        "id": 19,
+        "image": "/images/Salad.jpeg",
+        "path": "salad"
+    },
+    {
+        "id": 20,
+        "image": "/images/South_Indian_4.jpeg",
+        "path": "south-indian"
+    }
+]
